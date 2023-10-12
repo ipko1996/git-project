@@ -36,3 +36,4 @@ nest g resource <resourec_name>
 
 ### Add more scenarios!
 
+## GO HOME
