@@ -34,3 +34,4 @@ nest g resource <resourec_name>
 - revert `dev` or `main` because `feat/cat` broke the productions 😂
 
 ### Add more scenarios!
+
