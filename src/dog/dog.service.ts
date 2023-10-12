@@ -23,4 +23,8 @@ export class DogService {
   remove(id: number) {
     return `This action removes a #${id} dog`;
   }
+
+  bark(id: number) {
+    return `Dog ${id} says Bark!!`;
+  }
 }

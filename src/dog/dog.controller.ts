@@ -31,4 +31,9 @@ export class DogController {
   remove(@Param('id') id: string) {
     return this.dogService.remove(+id);
   }
+
+  @Get('bark/:id')
+  bark(@Param('id') id: string) {
+    return this.dogService.bark(+id);
+  }
 }
